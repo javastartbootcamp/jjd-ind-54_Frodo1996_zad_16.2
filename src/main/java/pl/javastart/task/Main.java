@@ -28,7 +28,7 @@ public class Main {
         return new DateTimeFormatterBuilder()
                 .appendOptional(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
                 .appendOptional(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
-                .appendOptional(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"))
+                .appendOptional(DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss"))
                 .toFormatter();
     }
 
